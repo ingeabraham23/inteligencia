@@ -1,0 +1,110 @@
+/* Cronograma.css */
+
+/* Estilos generales para dispositivos móviles */
+@media (max-width: 768px) {
+    .tabla-tezo {
+      width: 100%;
+      font-size: 14px;
+      border-collapse: collapse;
+      border: 2px solid rgb(119, 0, 255);
+    }
+  
+    .tabla-tezo td {
+      padding: 2px;
+      border: 1px solid black;
+      text-align: center;
+    }
+
+    .tabla-tezo th {
+        background-color: rgb(44, 44, 44);
+        color: #ffffff;
+        padding: 3px;
+        border: 1px solid black;
+        text-align: center;
+      }
+
+      .tabla-tezo-noche {
+        width: 100%;
+        font-size: 14px;
+        border-collapse: collapse;
+        border: 2px solid rgb(119, 0, 255);
+      }
+    
+      .tabla-tezo-noche td {
+        padding: 2px;
+        border: 1px solid black;
+        text-align: center;
+      }
+  
+      .tabla-tezo-noche th {
+          background-color: rgb(44, 44, 44);
+          color: #ffffff;
+          padding: 3px;
+          border: 1px solid black;
+          text-align: center;
+        }
+  
+    button {
+      font-size: 20px;
+      margin-top: 2px;
+      margin-bottom: 2px;
+    }
+  }
+  
+  /* Estilos específicos para columnas de la tabla */
+  .tabla-tezo tbody td:nth-child(1) {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .tabla-tezo tbody td:nth-child(2) {
+    background-color: #00db12;
+    color: #000000;
+  }
+  
+  .tabla-tezo tbody td:nth-child(3) {
+    background-color: #00a2ff;
+    color: #000000;
+  }
+  
+  .tabla-tezo tbody td:nth-child(4) {
+    background-color: #ffc400;
+    color: #000000;
+  }
+
+  .contenedor-tezo{
+    margin-top: 60px;
+  }
+  
+  .celda-tenextepec{
+    background-color: #ffc400;
+  }
+
+  /* Estilos específicos para columnas de la tabla */
+  .tabla-tezo-noche tbody td:nth-child(1) {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .tabla-tezo-noche tbody td:nth-child(2) {
+    background-color: #00db12;
+    color: #000000;
+  }
+  
+  .tabla-tezo-noche tbody td:nth-child(3) {
+    background-color: #00a2ff;
+    color: #000000;
+  }
+  
+  .tabla-tezo-noche tbody td:nth-child(4) {
+    background-color: #00db12;
+    color: #000000;
+  }
+  .tabla-tezo-noche tbody td:nth-child(5) {
+    background-color: #00a2ff;
+    color: #000000;
+  }
+  .tabla-tezo-noche tbody td:nth-child(6) {
+    background-color: #ffc400;
+    color: #000000;
+  }
