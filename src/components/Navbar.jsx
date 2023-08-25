@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const navigationItems = [
   { path: '/', icon: faClock, label: 'Tezo' },
+  { path: '/sosa', icon: faClock, label: 'Sosa' },
 
 ];
 

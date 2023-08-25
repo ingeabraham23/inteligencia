@@ -1,0 +1,162 @@
+/* Cronograma.css */
+
+/* Estilos generales para dispositivos móviles */
+@media (max-width: 768px) {
+  .tabla-sosa {
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+    border: 2px solid rgb(119, 0, 255);
+  }
+
+  .tabla-sosa td {
+    padding: 2px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .tabla-sosa th {
+    background-color: rgb(44, 44, 44);
+    color: #ffffff;
+    padding: 3px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .tabla-yopi {
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+    border: 2px solid rgb(119, 0, 255);
+  }
+
+  .tabla-yopi td {
+    padding: 2px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .tabla-yopi th {
+    background-color: rgb(44, 44, 44);
+    color: #ffffff;
+    padding: 3px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .tabla-tacopan {
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+    border: 2px solid rgb(119, 0, 255);
+  }
+
+  .tabla-tacopan td {
+    padding: 2px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .tabla-tacopan th {
+    background-color: rgb(44, 44, 44);
+    color: #ffffff;
+    padding: 3px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .tabla-domingo {
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+    border: 2px solid rgb(119, 0, 255);
+  }
+
+  .tabla-domingo td {
+    padding: 2px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .tabla-domingo th {
+    background-color: rgb(44, 44, 44);
+    color: #ffffff;
+    padding: 3px;
+    border: 1px solid black;
+    text-align: center;
+  }
+}
+
+/* Estilos específicos para columnas de la tabla */
+.tabla-sosa tbody td:nth-child(2) {
+    background-color: #ff8800;
+    color: #000000;
+  }
+.tabla-sosa tbody tr:nth-child(1) td:nth-child(9) {
+  background-color: #ff00ff;
+  color: #000000;
+}
+.tabla-sosa tbody tr:nth-child(2) td:nth-child(7) {
+  background-color: #ff00ff;
+  color: #000000;
+}
+.tabla-sosa tbody tr:nth-child(3) td:nth-child(7) {
+  background-color: #ff00ff;
+  color: #000000;
+}
+.tabla-sosa tbody tr:nth-child(4) td:nth-child(7) {
+  background-color: #ff00ff;
+  color: #000000;
+}
+
+.contenedor-sosa {
+  margin-top: 60px;
+}
+
+/* Estilos específicos para columnas de la tabla YOPI*/
+.tabla-yopi tbody td:nth-child(2) {
+    background-color: #ff8800;
+    color: #000000;
+  }
+.tabla-yopi tbody tr:nth-child(1) td:nth-child(9) {
+    background-color: #5c5c5c;
+    color: #ffffff;
+  }
+  .tabla-yopi tbody tr:nth-child(2) td:nth-child(9) {
+    background-color: #5c5c5c;
+    color: #ffffff;
+  }
+  .tabla-yopi tbody tr:nth-child(3) td:nth-child(7) {
+    background-color: #5c5c5c;
+    color: #ffffff;
+  }
+  .tabla-yopi tbody tr:nth-child(4) td:nth-child(7) {
+    background-color: #5c5c5c;
+    color: #ffffff;
+  }
+
+  /* Estilos específicos para columnas de la tabla TACOPAN*/
+  .tabla-tacopan tbody td:nth-child(2) {
+    background-color: #ff8800;
+    color: #000000;
+  }
+  .tabla-tacopan tbody tr:nth-child(1) td:nth-child(7) {
+    background-color: #ff00ff;
+    color: #000000;
+  }
+  .tabla-tacopan tbody tr:nth-child(2) td:nth-child(7) {
+    background-color: #ff00ff;
+    color: #000000;
+  }
+
+  /* Estilos específicos para columnas de la tabla DOMINGOS*/
+  /* Aplica un color de fondo a un conjunto de celdas específicas */
+.tabla-domingo tbody tr:nth-child(n+9):nth-child(-n+13) td:nth-child(2) {
+    background-color: #ff00ff; /* Cambia este color según tus preferencias */
+    color: #333; /* Cambia el color del texto si es necesario */
+  }
+
+  .tabla-domingo tbody tr:nth-child(n+1):nth-child(-n+13) td:nth-child(6) {
+    background-color: #ffbb00; /* Cambia este color según tus preferencias */
+    color: #333; /* Cambia el color del texto si es necesario */
+  }
